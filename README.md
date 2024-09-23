@@ -20,6 +20,7 @@ Exemple d'utilisation
     " ./script.sh -h "
 
 Remarques
+
   . Si un volume est déjà monté, le script vous en avertira et vous demandera de le démonter avant de procéder.
   . Ce script ne chiffre que les volumes spécifiés. Il ne peut pas chiffrer des partitions système actives (comme /).
   . La valeur par défaut du type de chiffrement est aes-xts-plain64 et celle du système de fichiers est ext4. Vous pouvez personnaliser ces paramètres via les options.
